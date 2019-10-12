@@ -9,5 +9,6 @@
 import Foundation
 class FullTime
 {
-   print("class FullTime is created")
+   
+  print("class FullTime is created")
 }
