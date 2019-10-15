@@ -9,5 +9,6 @@
 import Foundation
 class FullTime
 {
-    
+    var salary: Double
+    var bonus: Double
 }
