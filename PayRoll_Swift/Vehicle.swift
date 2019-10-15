@@ -5,5 +5,7 @@ struct Vehicle
     private var color: String?
     private var plate: String?
     
-   
+    init(make: String, color: String, plate: String)
+    
+}
 
