@@ -14,6 +14,7 @@ class FullTime
     
     init(salary: Double, bonus: Double)
     {
-        
+        self.salary=salary
+        self.bonus=bonus
     }
 }
