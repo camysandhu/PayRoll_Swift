@@ -8,7 +8,17 @@
 
 import Foundation
 class Employee{
-    print("Class employee is created")
+     var name: String
+     var age: Int
+     var earnings: Double
+    
+    
+    init(name: String, age:Int, earnings:Double) {
+        self.name=name
+        self.age=age
+        self.earnings=earnings
+    }
+    
 }
 
 
