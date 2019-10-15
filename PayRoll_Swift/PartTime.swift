@@ -17,4 +17,9 @@ class PartTime
         self.rate=rate
         self.hoursWorked=hoursWorked
     }
+    
+   // func printMyData() -> String
+    //{
+        
+    //}
 }

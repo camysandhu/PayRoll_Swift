@@ -17,4 +17,9 @@ class FullTime
         self.salary=salary
         self.bonus=bonus
     }
+    
+    func calucEarnings() -> Double
+    {
+        return self.salary + self.bonus
+    }
 }
