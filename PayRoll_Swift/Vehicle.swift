@@ -13,7 +13,10 @@ struct Vehicle
     }
     
     
-    
+    func printMyData()
+    {
+        print( "Make:- \(make!)" + "\nColor:- \(color!)" + "\nPlate:- \(plate!)")
+    }
     
 }
 
