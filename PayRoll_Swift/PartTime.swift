@@ -14,6 +14,7 @@ class PartTime
     
     init(rate: Double, hourWorked: Float)
     {
-        
+        self.rate=rate
+        self.hoursWorked = hoursWorked
     }
 }
