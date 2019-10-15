@@ -11,3 +11,6 @@ import Foundation
 print("Hello, World!")
 print("This is charan")
 
+var emp1 = FixedBasedPartTime(name: "Charan", age: 25, fixedAmount: 250, rate: 14.5,  hoursWorked: 8)
+print(emp1.printMyData())
+
