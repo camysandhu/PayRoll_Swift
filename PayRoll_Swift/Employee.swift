@@ -7,9 +7,14 @@
 //
 
 import Foundation
-class Employee{
-    print("Class employee is created")
+class Employee
+{
+    var name: String
+    var age: Int
+    var earnings: Double
+    
 }
+
 
 
 
