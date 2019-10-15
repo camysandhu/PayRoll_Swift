@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9F7C7A235394530043CF0B /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F7C79235394530043CF0B /* Motorcycle.swift */; };
+		1A9F7C7C235395BC0043CF0B /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F7C7B235395BC0043CF0B /* Car.swift */; };
+		1A9F7C7E2353A5100043CF0B /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F7C7D2353A5100043CF0B /* IPrintable.swift */; };
+		1A9F7C882353EED70043CF0B /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F7C872353EED70043CF0B /* Intern.swift */; };
 		9B18F0F6235162C6006327EE /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18F0F5235162C6006327EE /* Employee.swift */; };
 		9BC605F42351604100682EF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC605F32351604100682EF1 /* main.swift */; };
 		9BC605FB2351606200682EF1 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC605FA2351606200682EF1 /* Vehicle.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A9F7C79235394530043CF0B /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		1A9F7C7B235395BC0043CF0B /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		1A9F7C7D2353A5100043CF0B /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
+		1A9F7C872353EED70043CF0B /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
 		9B18F0F5235162C6006327EE /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		9BC605F02351604100682EF1 /* PayRoll_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PayRoll_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC605F32351604100682EF1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -64,6 +72,10 @@
 				9BC605F32351604100682EF1 /* main.swift */,
 				9BC605FA2351606200682EF1 /* Vehicle.swift */,
 				9B18F0F5235162C6006327EE /* Employee.swift */,
+				1A9F7C79235394530043CF0B /* Motorcycle.swift */,
+				1A9F7C7B235395BC0043CF0B /* Car.swift */,
+				1A9F7C7D2353A5100043CF0B /* IPrintable.swift */,
+				1A9F7C872353EED70043CF0B /* Intern.swift */,
 			);
 			path = PayRoll_Swift;
 			sourceTree = "<group>";
@@ -95,7 +107,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = MacStudent;
 				TargetAttributes = {
 					9BC605EF2351604100682EF1 = {
@@ -109,6 +121,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 9BC605E72351604100682EF1;
 			productRefGroup = 9BC605F12351604100682EF1 /* Products */;
@@ -125,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9F7C7A235394530043CF0B /* Motorcycle.swift in Sources */,
+				1A9F7C882353EED70043CF0B /* Intern.swift in Sources */,
 				9BC605FB2351606200682EF1 /* Vehicle.swift in Sources */,
+				1A9F7C7C235395BC0043CF0B /* Car.swift in Sources */,
+				1A9F7C7E2353A5100043CF0B /* IPrintable.swift in Sources */,
 				9B18F0F6235162C6006327EE /* Employee.swift in Sources */,
 				9BC605F42351604100682EF1 /* main.swift in Sources */,
 			);
@@ -252,6 +269,7 @@
 		9BC605F82351604100682EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -261,6 +279,7 @@
 		9BC605F92351604100682EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
