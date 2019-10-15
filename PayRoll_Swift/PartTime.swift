@@ -12,6 +12,7 @@ class PartTime
     var rate: Double
     var hoursWorked: Float
     
+   
     init(rate: Double, hoursWorked: Float)
     {
         self.rate=rate
