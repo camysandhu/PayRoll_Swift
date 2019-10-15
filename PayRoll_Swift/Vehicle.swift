@@ -6,6 +6,14 @@ struct Vehicle
     private var plate: String?
     
     init(make: String, color: String, plate: String)
+    {
+        self.make = make
+        self.color = color
+        self.plate = plate
+    }
+    
+    
+    
     
 }
 
