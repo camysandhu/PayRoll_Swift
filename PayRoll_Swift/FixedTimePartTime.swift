@@ -10,13 +10,15 @@ import Foundation
 class FixedBasedPartTime: PartTime {
     var fixedAmount: Double
     
-    init(name: String, age:Int, fixedAmount: Double, rate: Double, hoursWorked: Float) {
+    init(name: String, age:Int, fixedAmount: Double, rate: Double, hoursWorked: Float)
+    {
         
         self.fixedAmount = fixedAmount
-        super.init(rate: Double(rate), hoursWorked: hoursWorked)
+      super.init(name: name, age: age, earnings: 0.0, rate: 0.0, hoursWorked: 0.0)
         }
-    func printMyData() -> String {
-        return ("NAME: \(name) \n AGE: \(age) \n FIXED AMOUNT: \(fixedAmount) \n HOURS WORKED: \(hoursWorked) \n RATE: \(rate)")
+    func printMyData()
+    {
+        print("NAME: \(name) \n AGE: \(age) \n FIXED AMOUNT: \(fixedAmount) \n HOURS WORKED: \(hoursWorked) \n RATE: \(rate)")
     }
     
     
