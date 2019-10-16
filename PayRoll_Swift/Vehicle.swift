@@ -1,5 +1,14 @@
 struct Vehicle
 {
+
+    /*private var make: String
+    private var color: String
+    private var plate: String
+    
+    init() {
+        
+    }*/
+
     
     private var make: String?
     private var color: String?
@@ -18,5 +27,6 @@ struct Vehicle
         print( "Make:- \(make!)" + "\nColor:- \(color!)" + "\nPlate:- \(plate!)")
     }
     
+
 }
 
