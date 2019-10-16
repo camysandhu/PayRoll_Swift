@@ -1,3 +1,5 @@
+
+import Foundation
 class Vehicle
 {
     private var make: String
